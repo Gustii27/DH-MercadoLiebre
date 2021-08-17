@@ -27,14 +27,24 @@
     .border-img {
         width: 50%;
     }
-    .truck-icon:hover {
-        transform: rotate(-90deg);
-        transition-duration: 500ms;
+
+    .text-descripcion {
+        display: none;
+    }
+    .margin-article {
+        box-shadow: none;
     }
     .margin-article:hover {
         transform: scale(1.08);
         position: relative;
         z-index: 10;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .truck-icon:hover {
+        transform: rotate(-90deg);
+        transition-duration: 500ms;
+    }
+    .margin-article:hover .text-descripcion {
+        display: initial;
     }
 }
