@@ -1,0 +1,22 @@
+{
+  "name": "cierre_modulo_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustii27/Estructura-de-sitio-web.git"
+  },
+  "author": "Gustii27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustii27/Estructura-de-sitio-web/issues"
+  },
+  "homepage": "https://github.com/Gustii27/Estructura-de-sitio-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
